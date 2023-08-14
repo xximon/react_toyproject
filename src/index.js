@@ -4,12 +4,25 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
+/** [Chapter_03]  */
 import Library from './chapter_03/Library';
+/** [Chapter_04]  */
 import Clock from './chapter_04/Clock';
+/** [Chapter_05]  */
 import CommentList from './chapter_05/CommentList';
+/** [Chapter_06]  */
 import NotificationList from './chapter_06/NotificationList';
+/** [Chapter_07]  */
+import Accommodate from './chapter_07/Accommodate';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
+
+// root.render(
+//     <React.StrictMode>
+//       <App />
+//     </React.StrictMode>
+// );
+
 /** [Chapter_03]  */
 // root.render(
 //   <React.StrictMode>
@@ -35,9 +48,16 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 // );
 
 /** [Chapter_06] */
+// root.render(
+//   <React.StrictMode>
+//     <NotificationList />
+//   </React.StrictMode>
+// );
+
+/** [Chapter_07] */
 root.render(
   <React.StrictMode>
-    <NotificationList />
+    <Accommodate />
   </React.StrictMode>
 );
 
