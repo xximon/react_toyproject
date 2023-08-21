@@ -14,6 +14,8 @@ import CommentList from './chapter_05/CommentList';
 import NotificationList from './chapter_06/NotificationList';
 /** [Chapter_07]  */
 import Accommodate from './chapter_07/Accommodate';
+/** [Chapter_08]  */
+import ConfirmButton from './chapter_08/ConfirmButton';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
@@ -55,9 +57,16 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 // );
 
 /** [Chapter_07] */
+// root.render(
+//   <React.StrictMode>
+//     <Accommodate />
+//   </React.StrictMode>
+// );
+
+/** [Chapter_08] */
 root.render(
   <React.StrictMode>
-    <Accommodate />
+    <ConfirmButton />
   </React.StrictMode>
 );
 
