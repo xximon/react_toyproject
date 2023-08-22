@@ -16,6 +16,8 @@ import NotificationList from './chapter_06/NotificationList';
 import Accommodate from './chapter_07/Accommodate';
 /** [Chapter_08]  */
 import ConfirmButton from './chapter_08/ConfirmButton';
+/** [Chapter_09]  */
+import LandingPage from './chapter_09/LandingPage';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
@@ -64,12 +66,18 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 // );
 
 /** [Chapter_08] */
+// root.render(
+//   <React.StrictMode>
+//     <ConfirmButton />
+//   </React.StrictMode>
+// );
+
+/** [Chapter_09] */
 root.render(
   <React.StrictMode>
-    <ConfirmButton />
+    <LandingPage />
   </React.StrictMode>
 );
-
 
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))
